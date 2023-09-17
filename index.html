@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <title>Serhat Melek</title>
+  <link rel="icon" href="Images/tiger.jpg" />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/5a7d261dcb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="Images/backgroundimage.png" class="logo">
+        <ul id="sidemenu">
+        <i class="fa-solid fa-x" onclick="closemenu()"></i>
+          <li><a href="#header">Home Page</a></li>
+          <li><a href="#About">About Me</a></li>
+          <li><a href="#services">My Services</a></li>
+          <li><a href="#portfolio">My Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Freelance Website Designer</p>
+        <h1>Hello There, I'm <span class="multiText"></span><br>from London</h1>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typingEffect = new Typed(".multiText",{
+      strings : ["Serhat", "Freelance Web Developer"],
+      loop : true,
+      typeSpeed : 100,
+      backSpeed : 80,
+      backDelay :1500
+    })
+  </script>
+
+  <div id="About">
+    <div class="container">
+      <div class="row">
+        <div class="About-column-left">
+          <img src="Images/backgroundimage.png">
+        </div>
+        <div class="About-column-right">
+          <h1 class="sub-title">About Me</h1>
+          <p>Hello, This is one of my few attempted projects to assist one mega projectllllllllllllllllllll Hello, This
+            is one of my few attempted
+            projects to assist one mega project786786987686967868789070989079
+          </p>
+
+          <div class="Navigational-Titles">
+            <p class="Navigational-Links Active-Link" onclick="opentab('Skills')">Skills</p>
+            <p class="Navigational-Links" onclick="opentab('Experience')">Experience</p>
+            <p class="Navigational-Links" onclick="opentab('Education')">Education</p>
+          </div>
+
+          <div class="Navigational-Contents Active-Tab" id="Skills">
+            <ul>
+              <li><span>UI/UX</span><br>Design Astonishing Websites</li>
+              <li><span>Web Designer</span><br>Programme Websites</li>
+              <li><span>.Net C# Developer</span><br>Programme desktop applications</li>
+            </ul>
+          </div>
+
+          <div class="Navigational-Contents" id="Experience">
+            <ul>
+              <li><span>Hospitality</span><br>Hospitality Hospitality Hospitality</li>
+              <li><span>Hospitality Hospitality</span><br>Hospitality Hospitality</li>
+              <li><span>Hospitality Hospitality Hospitality</span><br>Hospitality Hospitality</li>
+            </ul>
+          </div>
+          <div class="Navigational-Contents" id="Education">
+            <ul>
+              <li><span>UI/UX</span><br>Design Astonishing Websitesssss</li>
+              <li><span>Web Designer</span><br>Programme Websites</li>
+              <li><span>.Net C# Developer</span><br>Programme</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-------------------Services--------------->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>I hope this works</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-person-walking-arrow-right"></i>
+          <h2>User Interface</h2>
+          <p>This must work</p>
+          <a href="#">Learn Even More</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store-ios"></i>
+          <h2>.Net Developer</h2>
+          <p>I need to find out how to work this out</p>
+          <a href="#">Learn Even More than Before</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-------------------Portfolio--------------->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="Images/backgroundimage.png">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>This link will navigate you to life</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="Images/backgroundimage.png">
+          <div class="layer">
+            <h3>Music App</h3>
+            <p>Hello Lads</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="Images/backgroundimage.png">
+          <div class="layer">
+            <h3>Dance App</h3>
+            <p>Lol</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+
+
+  <!-----------ContactForm----------->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Place an Inquiry</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>businessEnquiries@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>07555145430</p>
+          <div class="social-icons">
+            <a href="https://facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-square-github"></i></a>
+          </div>
+          <a href="Images/BeyanForum.pdf" download class="btn btn2">Download CV</a>
+        </div>
+
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="message"></span>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>All Copyrights @ Serhat. Made with <i class="fa-solid fa-heart-crack"></i> by Your Freelance Website Developer</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script>
+
+    var NavigationalLinks = document.getElementsByClassName("Navigational-Links");
+    var NavigationalContents = document.getElementsByClassName("Navigational-Contents");
+    function opentab(tabname) {
+      for (NavigationalLink of NavigationalLinks) {
+        NavigationalLink.classList.remove("Active-Link")
+      }
+      for (NavigationalContent of NavigationalContents) {
+        NavigationalContent.classList.remove("Active-Tab");
+      }
+      event.currentTarget.classList.add("Active-Link")
+      document.getElementById(tabname).classList.add("Active-Tab");
+    }
+  </script>
+
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+      sidemenu.style.right = "0";
+    }
+
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxk3baAaQervQNUgL04zY2LUujkZrNmwywqz4M7o11AkCJ6wvwHkAKcgu6zJtlQ3Puz5w/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const message = document.getElementById("message")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          message.innerHTML = "Message submitted"
+          setTimeout(function () {
+            message.innerHTML = ""
+          }, 5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
